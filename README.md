@@ -5,7 +5,7 @@ Aqui voy a tratar de poder todos mis lineas de codigo en la parte practica de mi
 
 
 El autor de este Proyecto es:   
-Andres Felipe Rangel Peña
+*Andres Felipe Rangel Peña*
 
 
 :copyright: 2024
