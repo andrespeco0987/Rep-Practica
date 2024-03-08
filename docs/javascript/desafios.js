@@ -1,5 +1,5 @@
 "use strict"
-const entrada = prompt("Ingrese su nombre:");
+/* const entrada = prompt("Ingrese su nombre:");
 
 if(entrada)
 {
@@ -8,4 +8,17 @@ if(entrada)
 else
 {
     document.write("Hola Bienvenido");
+} */
+
+
+const entrada = prompt("Ingrese su nombre:");
+console.log (entrada);
+
+switch(entrada){
+    case "":
+        document.write("Hola!");
+        break;
+    default:
+        document.write("Hola " + entrada + " Bienvenido");
+        break;
 }
