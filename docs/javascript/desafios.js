@@ -10,17 +10,17 @@ else
     document.write("Hola Bienvenido");
 } */
 
-/* const entrada = prompt("Ingrese su nombre:");
-console.log (entrada);
+const entrada = prompt("Ingrese su nombre:");
+console.log(entrada);
 
-switch(entrada){
-    case "":
-        document.write("Hola!");
-        break;
-    default:
-        document.write("Hola " + entrada + " Bienvenido");
-        break;
-} */
+switch (entrada) {
+  case "":
+    document.write("Hola!");
+    break;
+  default:
+    document.write("Hola " + entrada + " Bienvenido");
+    break;
+}
 
 /* let numero1 = prompt("ingrese un numero para sumarlo");
 let numero2 = prompt("ingrese segundo numero");
