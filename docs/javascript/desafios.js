@@ -40,3 +40,6 @@ const nombreCompleto = nombre + " " + apellido;
 
 document.write(nombreCompleto);
 console.log(nombreCompleto);
+
+/* document.write(nombreCompleto);
+console.log(nombreCompleto); */
