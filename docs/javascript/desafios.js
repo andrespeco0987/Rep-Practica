@@ -54,9 +54,26 @@ for (let i = 1; i <= numero; i++) {
   document.body.appendChild(div); // Agregar el div al cuerpo del documento
 } */
 
-const numero = parseInt(prompt('Ingrese un número: '));
+/* const numero = parseInt(prompt('Ingrese un número: '));
 
 for (let i = 1; i <= numero; i++) {
-  document.write(i + "\n"); // Agregar "\n" al final de cada número
+  document.write(i + "</br>");
 }
+ */
+
+/* const number = parseInt(prompt("Enter a number: "));
+
+for (let i = 1; i <= number; i++) {
+  if (i % 2 === 0) {
+    document.write("<li>" + i + "</li>");
+  }
+} */
+
+/* const numero = parseInt(prompt("Ingrese un número entero:"));
+
+for (let i = 1; i <= numero; i += 2) {
+  console.log(i);
+  document.write("<li>" + i + "</li>");
+} */
+
 
