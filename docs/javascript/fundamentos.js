@@ -52,15 +52,15 @@ console.log(cambiaValor);
 console.log(noCambiaValor); */
 
 /* Modo estricto */
-'use strict';
+"use strict";
 /* saludo = 'hola';
 console.log(saludo); */
 
 /* Tipos de dato primitivos */
 // string
-let miVariable = '';
-miVariable = 'a';
-miVariable = 'abc';
+let miVariable = "";
+miVariable = "a";
+miVariable = "abc";
 miVariable = "este es un texto de 'ejemplo 1'";
 miVariable = 'este es un texto de "ejemplo 2"';
 miVariable = `este es un 'texto' de "ejemplo" 3`;
@@ -83,7 +83,7 @@ miVariable = null;
 // console.log(miVariable);
 
 /* Operador typeof */
-let entradaUsuario = '123';
+let entradaUsuario = "123";
 /* console.log(entradaUsuario);
 console.log(typeof entradaUsuario); */
 entradaUsuario = 123;
@@ -244,3 +244,9 @@ console.log(false || true || false);
 console.log(false || false);
 console.log(!true);
 console.log(!false); */
+
+const numero = 2;
+
+/* numero === 1 ? console.log("si") : console.log("no"); */
+
+numero === 1 ? console.log("El número es 1") : numero === 2 ? console.log("El número es 2") : numero === 3 ? console.log("El número es 3") : console.log("El número no es ni 1, ni 2, ni 3");

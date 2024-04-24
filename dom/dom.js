@@ -8,6 +8,7 @@ const $p = d.createElement("p");
 const $btn = d.createElement("button");
 const $btn2 = d.createElement("button");
 const $btn3 = d.createElement("button");
+const $span = d.createElement("span");
 
 let contadorDeClicks = 0;
 
@@ -17,6 +18,7 @@ $p.textContent = contadorDeClicks;
 $btn.textContent = "Mas";
 $btn2.textContent = "Menos";
 $btn3.textContent = "reset";
+$span.textContent = " ";
 
 //estilos
 $root.style.backgroundColor = "green";
@@ -29,6 +31,7 @@ $root.appendChild($p);
 $root.appendChild($btn);
 $root.appendChild($btn2);
 $root.appendChild($btn3);
+$raiz.appendChild($span);
 
 //eventos
 $btn.addEventListener("click", () => {
@@ -36,18 +39,24 @@ $btn.addEventListener("click", () => {
 	$p.textContent = contadorDeClicks;
 	if (contadorDeClicks === 10) {
 		/* $raiz.style.display = "none"; */
-		$raiz.remove(); //remover con dom
+		/* $raiz.remove(); //remover con dom */
 	}
+	$span.textContent = ` El doble de clicks es: ${contadorDeClicks * 2}`;
+	$raiz.appendChild($span);
+	$raiz.style.display = "block";
 });
 
 $btn2.addEventListener("click", () => {
 	contadorDeClicks--;
 	$p.textContent = contadorDeClicks;
+	$span.textContent = ` El doble de clicks es: ${contadorDeClicks * 2}`;
+	$raiz.style.display = "block";
 });
 
 $btn3.addEventListener("click", () => {
 	contadorDeClicks = 0;
 	$p.textContent = contadorDeClicks;
 	/* $raiz.style.display = "block"; */
-	$root.appendChild($raiz);
+	/* $root.appendChild($raiz); */
+	$raiz.style.display = "none";
 });
