@@ -98,7 +98,10 @@ function calcular() {
 		const suma = $num1 + $num2;
 		const diferencia = $num1 - $num2;
 		const multi = $num1 * $num2;
+		if ($num1 === Number && $num1 === Number) {
+			d.getElementById("result").innerHTML = "ingresa un numero";
+		}
 
-		d.getElementById("result").innerHTML = "Suma: " + suma + ", Resta: " + diferencia + ", Multiplicacion: " + multi;
+		d.getElementById("result").innerHTML = "Suma: " + suma + ", Resta: " + diferencia + ", Multiplicacion: " + multi + " numeros ingresados " + $num1 + "," + $num2;
 	});
 }
